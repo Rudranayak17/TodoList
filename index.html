@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body class="bg-[antiquewhite]">
+    <div id="contain" class="  max-w-screen-sm min-h-screen m-auto   bg-white p-8">
+
+        <h1 class=" font-serif text-center text-5xl ">Todo List</h1>
+
+        <form class="my-5 mx-4 flex flex-col p-6">
+            <input id="title" type="text" class="border-2  border-black  border-solid font-serif text-xl my-4 p-5"
+                placeholder="Enter title" required>
+            <textarea id="description" class="border-2  border-black  border-solid font-serif text-xl my-4 p-5"
+                placeholder="Enter Description" cols="30" rows="10" required></textarea>
+
+            <button type="submit" class="bg-purple-400 p-5 rounded-xl">ADD</button>
+        </form>
+       
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
